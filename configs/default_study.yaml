@@ -1,0 +1,25 @@
+# EMNIST Hyperparameter Scaling Study - Default Configuration
+
+data:
+  data_dir: "/usr/local/share/teach/ML/EMNIST/numpy/"
+  dataset_name: "balanced"
+  normalize: true
+
+model:
+  input_shape: [784]
+  output_dim: 47
+  hidden_layer_sizes: [512, 256]
+  hidden_activations: "relu"
+  output_activation: "softmax"
+  loss_function: "categorical_crossentropy"
+  optimizer_type: "SGD"
+
+training:
+  learning_rate: 0.1
+  epochs: 128
+  batch_size: 32
+
+experiment:
+  experiment_name: "baseline_2L_512_256"
+  save_cm: true
+  output_dir: "results"

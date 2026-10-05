@@ -1,0 +1,17 @@
+name: emnist-scaling
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - pyyaml
+  - pip
+  - pip:
+      - tensorflow>=2.10.0

@@ -15,9 +15,9 @@ This repository contains a physics-inspired, systematic analysis of Neural Netwo
 .
 ├── configs/                  # Experiment configurations (YAML/JSON)
 ├── figures/                  # Publication-ready vector graphics (SVG/PDF)
+├── results/                  # Serialized training histories and metrics (.pkl)
 ├── notebooks/
 │   └── hyperparameter_scaling_analysis.ipynb  # Main analytical showcase 
-├── RawNetworkData/           # Serialized training histories and metrics (.pkl)
 └── src/                      # Modular Python source code
     ├── data.py               # EMNIST data loading and normalization
     ├── models.py             # Flexible Keras model architectures
